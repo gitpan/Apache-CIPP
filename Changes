@@ -1,5 +1,16 @@
 Revision history for Perl extension Apache::CIPP.
 
+0.13  Tu  Mar  7 2000
+	- internal subroutine names include now Apache server
+	  name and port to prevent from name clasing with several
+	  projects on the same instance
+
+0.12  Su  Mar 26 2000
+	- added Remote-IP / Proxy X-Forwarded-For mangling,
+	  for a dual Apache (thin Proxy/thick Perl) setup,
+	  to determine the original remote IP adress in
+	  the Perl Apache instance
+
 0.11  Mo  Mar 06 2000
 	- added lib/CIPP/Apache.pm, so CPAN will list this
           module in the by-modules/CIPP folder
