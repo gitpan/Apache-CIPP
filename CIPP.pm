@@ -1,6 +1,6 @@
 package Apache::CIPP;
 
-$VERSION = "0.10";
+$VERSION = "0.11";
 $REVISION = q$Revision: 1.2 $;
 
 use strict;

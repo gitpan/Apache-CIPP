@@ -1,5 +1,9 @@
 Revision history for Perl extension Apache::CIPP.
 
+0.11  Mo  Mar 06 2000
+	- added lib/CIPP/Apache.pm, so CPAN will list this
+          module in the by-modules/CIPP folder
+
 0.10  Fri Oct 01 1999
 	- added configuration parameter for CIPP multilanguage
 	  support

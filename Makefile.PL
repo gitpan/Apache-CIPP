@@ -6,7 +6,7 @@ WriteMakefile(
     'NAME'	=> 'Apache::CIPP',
     'VERSION_FROM' => 'CIPP.pm',
     'PREREQ_PM' => {
-    		'CIPP' => 2.0,
+    		'CIPP' => 2.13,
 		'Apache' => 0
 		},
     'dist' => {
